@@ -1,0 +1,130 @@
+
+			div.Body {
+			background-color: #EAECEE;
+			font-size:10px;
+			font-family:Times New Roman;
+			text-align:right;
+			width: 100%;
+			margin: 10px;
+			border: 3px solid #FF00E8;
+			}
+			div.Header {
+			position: Header;
+			background-color:#2D3061;
+			text-align:center;
+			color: #FF8F00;
+			margin-top:5px;
+			margin:10px;
+			font-size:15px;
+			width: 98%;
+			border: 3px solid #00FF27;
+			}
+			div.h1 {
+			color: #000000  ;
+			text-align:center;
+			display: flex;
+			font-size:15px;
+			background-color:#FF0000;
+			margin:10px;
+			width: 98%;
+			border: 3px solid #FFFFFF;
+			}
+			div.main {
+			position: main;
+			margin: 15px;
+			width: auto;
+			border: 3px solid #73AD21;
+			}
+			div.selection1 {
+			font-family:Times New Roman;
+			text-align:left;
+			font-size:25px;
+			width:auto;
+			margin:50px;
+			margin-bottom:5px;
+			border: 3px solid #001FFF;
+			}
+			div.h2-1 {
+			width:auto;
+			margin: 10px;
+			margin-bottom:5px;
+			font-size:20px;
+			text-align:center;
+			border: 3px solid #73AD21;
+			background-color:#2D3061;
+			color:#FFFFFF;
+			}
+
+			div.article-1 {
+			max-width:auto;
+			margin: 15px;
+			margin-top:5px;
+			border-left:5px;
+			border-right:5px;
+			border: 5px solid #73AD21;
+			background-color:#FFFFFF;
+			padding-bottom: 15px;
+			}
+			div.h3-1 {
+			text-align:center;
+			width:auto;
+			margin: 6px;
+			border: 3px solid #73AD21;
+			color:#FFFFFF;
+			background-color:#18CA40;
+			border-top-left-radius:5px;
+			padding-left:5px;
+			font-size:20px;
+			}
+			div.p-1 {
+			max-width:auto;
+			margin: 6px;
+			border: 3px solid #73AD21;
+			font-size:20px;
+			}
+		div.selection2 {
+			width:auto;
+			margin:50px;
+			margin-top:5px;
+			border: 3px solid #001FFF;
+			font-size:25px;
+			font-family:Times New Roman;
+			text-align:left;
+			}
+			div.h2-2 {
+			text-align:center;
+			width:auto;
+			margin: 10px;
+			margin-bottom:5px;
+			border: 3px solid #73AD21;
+			background-color:#2D3061;
+			color:#FFFFFF;
+			}
+
+			div.article-2 {
+			max-width:auto;
+			margin: 15px;
+			margin-top:5px;
+			border-left:5px;
+			border-right:5px;
+			border: 5px solid #73AD21;
+			background-color:#FFFFFF;
+			padding-bottom: 15px;
+			}
+			div.h3-2 {
+			font-size:20px;
+			text-align:center;
+			width:auto;
+			margin: 6px;
+			border: 3px solid #73AD21;
+			color:#FFFFFF;
+			background-color:#18CA40;
+			border-top-left-radius:5px;
+			padding-left:5px;
+			}
+			div.p-2 {
+			max-width:auto;
+			margin: 6px;
+			border: 3px solid #73AD21;
+			font-size:20px;
+			}

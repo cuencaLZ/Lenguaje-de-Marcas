@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>Preguntas HTML con strict</title>
+		<meta name="description" content="En la pagina daremos respuesta a las preguntas del ejercicio 2.2.2"/>
+	</head>
+	<body>
+		<h1>Preguntas del ejercicio 2.2.2</h1>
+			<ul>
+				<li> <a href="#P1">Qué tiene validez XHTML? </a></li>
+				<li> <a href="#P2">Qué es strict? </a></li>
+				<li> <a href="#P3">Qué es transitional? </a></li>
+				<li> <a href="#P4">Qué usar strict o transitional? </a></li>
+				<li> <a href="#P5">Enlaces a paginas de interes</a></li>
+			</ul>
+		
+		<p>
+			<img src="img/html_vs._xhtml_.jpg" alt="Foto HTML vs XHTML como inicio a la siguiente cuestion" style="width:504px;height:228px"/>
+        </p>
+		<p><a name="P1"></a></p>
+		<h4>Qué tiene validez XHTML?</h4>
+			
+			<p> Para que una página de XHTML tenga validez tiene que seguir las reglas siguientes:</p>
+				<ul>
+					<li>Todos los elementos deben tener etiquetas de cierre, deben estar escritos de una forma determinada y además todos los elementos deben estar anidados correctamente.</li>
+					<li>Código de elementos anidados.</li>
+					<li>Tanto los elementos como los atributos deben ir en minúsculas para todos los elementos HTML y los nombres de atributos. Esto es importante ya que XML interpreta las mayúsculas y las minúsculas de forma diferente.</li>
+					<li>Los elementos que no estén vacios necesitan etiquetas de cierre.</li>
+					<li>Todos los valores de los atributos deben ir entre comillas, incluso aquellos que sean numéricos.</li>
+				</ul>
+				
+		<p>
+			<img src="img/12-02_template.jpg" alt="Foto Strict donde se puee visualizar parte del lenguaje que se tiene que introducirt en la pagina" style="width:504px;height:228px"/>
+        </p>
+		<h4>Qué es strict?</h4>
+			<p><a name="P2"></a></p>
+			<p>Es la versión más limpia y simple de HTML. Con este doctype sólo puedes usar las partes del HTML que se refieren a la estructura y, en general, no permite utilizar las partes que se relacionan con el estilo.</p>
+		
+		<p>
+			<img src="img/html_valid_large.png" alt="Foto Strict donde se puee visualizar parte del lenguaje que se tiene que introducirt en la pagina" style="width:504px;height:228px"/>
+        </p>
+		<h4>Qué es transitional?</h4>
+			<p><a name="P3"></a></p>
+			<p>Esta es la versión mixta. Se permite el uso de etiquetas de estilo, que realmente no tienen cabida en HTML, pero que se introdujeron antes de que el CSS existiera. En general, es mejor mantener el marcado (HTML) y el estilo (CSS) totalmente independiente, ya que esto hace más fácil cambiar el aspecto de la web más tarde, e incluso compartir el mismo estilo en varias páginas web, pero si todavía no dominas HTML y CSS, este doctype seguramente sea la mejor elección.</p>
+		
+		<h4>Qué usar strict o transitional?</h4>
+			<p><a name="P4"></a></p>
+			<table style="width:">
+				<tr>
+					<th>Transitional</th> 
+					<th>Strict</th>
+				</tr>
+				<tr>
+					<td>Utiliza Transitional cuando tu página web se ajuste a las normas básicas XHTML, pero todavía utilices algunas etiquetas HTML para la presentación (estilo).</td>
+					<td>Utiliza  Strict cuando tu página web se ajuste a las normas de XHTML y los usos de CSS para la separación total entre contenido y presentación.</td>
+				</tr>
+			</table>
+			
+		<p>Enlaces a paginas de interes </p>
+			<p><a name="P5"></a></p>
+			<ul>
+				<li> <a href=" https://www.w3schools.com/html/html_xhtml.asp">HTML y XHTML</a></li>
+				<li> <a href=" https://24ways.org/2005/transitional-vs-strict-markup">Strict vs Transitional</a></li>
+			</ul>
+	</body>
+</html>		

@@ -1,0 +1,102 @@
+*{
+	background-color:#FF0000;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 132px;
+    
+}
+
+li a {
+	width:100px;
+    display: block;
+    color: #000000  ;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	border:5px solid #151518;
+	background-color: #fff;
+}
+
+li a:hover:not(.active) {
+    border:5px solid #FBFF00
+}
+.active {
+    background-color:#00FE00;
+}
+#caja {
+	border:5px solid #bbb;
+	background-color:#93F96D;
+	margin-top: 20px;
+	margin-left: 200px;
+	position:Center;
+	width:60%;
+}
+div.pI{
+	border:5px solid #bbb;
+	margin:15px;
+	width:50%;
+	margin-top:2%;
+	padding:10px;
+	background-color:#fff;
+	font-family:Helvetica;
+	
+	
+	}
+div.pD{
+	border:5px solid #bbb;
+	margin:15px;
+	width:50%;
+	margin-left:40%;
+	margin-top:2%;
+	padding:10px;
+	background-color:#fff;
+	font-family:Helvetica;
+	}
+div.sick1 { 	
+	width: 72px;
+  	height: 65px;
+   	background: url(https://cdn-images-1.medium.com/max/360/1*_lVsnEjZp8qUtbVcePntwA.png) -1px -1px;
+	}
+div.sick2 { 	
+	width: 72px;
+  	height: 65px;
+   	background: url(https://cdn-images-1.medium.com/max/360/1*_lVsnEjZp8qUtbVcePntwA.png) -215px -1px;
+	}
+div.sick3 { 	
+	width: 72px;
+  	height: 65px;
+   	background: url(https://cdn-images-1.medium.com/max/360/1*_lVsnEjZp8qUtbVcePntwA.png) -285px -78px;
+	}
+div.icono{
+	float:right;
+	margin-top:50px;
+	
+}
+div.Face { 	
+    
+	width: 150px;
+  	height: 130px;
+   	background: url(https://image.flaticon.com/sprites/new_packs/145797-social-network-logo-collection.png) -30px -30px;
+	}
+div.Twitter { 	
+    
+	width: 150px;
+  	height: 130px;
+   	background: url(https://image.flaticon.com/sprites/new_packs/145797-social-network-logo-collection.png) -220px -30px;
+	}
+div.Insta { 	
+    
+	width: 150px;
+  	height: 130px;
+   	background: url(https://image.flaticon.com/sprites/new_packs/145797-social-network-logo-collection.png) -420px -30px;
+	}
+div.Pinte { 	
+    
+	width: 150px;
+  	height: 130px;
+   	background: url(https://image.flaticon.com/sprites/new_packs/145797-social-network-logo-collection.png) -420px -217px;
+	}
+

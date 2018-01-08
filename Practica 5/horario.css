@@ -1,0 +1,41 @@
+table{
+	border:3px solid black;
+	width:60%;
+	border-collapse:collapse;
+}
+table td {
+	padding:15px;
+	border: 1px solid black;
+	
+}
+
+
+div.cuadro {
+	margin-left:-8px;
+	max-width: 1200px;
+	border:5px;
+	border-style: dashed;
+	Background-color:#FFA200 ;
+	Font-family:Algerian;
+	position:fixed;
+	width:100%;
+	height:60%;
+    }
+div.dia {
+	border:1px;
+	border-style: dashed;
+	Background-color:#FFA200 ;
+	Font-family:Algerian;
+	position:fixed;
+	width:6%;
+	height:537px;
+}
+div.Horas {
+	border:1px;
+	border-style:hidden;
+	Background-color:#FFA200 ;
+	Font-family:Algerian;
+	position:float;
+	width:6%;
+	height:89px;
+}

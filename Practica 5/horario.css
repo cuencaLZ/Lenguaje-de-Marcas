@@ -1,5 +1,6 @@
 body{
 	background-image:url("libro-en-blanco.jpg");
+	background-size: cover;
 }
 table{
 	border:3px solid black;
@@ -26,35 +27,17 @@ div.imf {
 	}
 div.icono{
 	float:right;
+}
+
+.desc{
+    text-align: center;
+    border-radius: 35px;
+    padding: 20px;
+    margin-top: 20px;
+    align-items: center;
+    display: none;
+}
+
 	
 
 
-div.cuadro {
-	margin-left:-8px;
-	max-width: 1200px;
-	border:5px;
-	border-style: dashed;
-	Background-color:#FFA200 ;
-	Font-family:Algerian;
-	position:fixed;
-	width:100%;
-	height:60%;
-    }
-div.dia {
-	border:1px;
-	border-style: dashed;
-	Background-color:#FFA200 ;
-	Font-family:Algerian;
-	position:fixed;
-	width:6%;
-	height:537px;
-}
-div.Horas {
-	border:1px;
-	border-style:hidden;
-	Background-color:#FFA200 ;
-	Font-family:Algerian;
-	position:float;
-	width:6%;
-	height:89px;
-}

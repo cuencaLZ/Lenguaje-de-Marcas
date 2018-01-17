@@ -28,10 +28,15 @@ div.imf {
 div.icono{
 	float:right;
 }
+p {
+	font-weight:bold;
+}
+div.H1 {
+	Font-family:Times New Roman;
+}	
 
 .desc{
     text-align: center;
-    border-radius: 35px;
     padding: 20px;
     margin-top: 20px;
     align-items: center;
